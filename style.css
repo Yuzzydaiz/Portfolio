@@ -391,14 +391,6 @@ aside li i {
     border:none;
 }
 
-.contactMe {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 80px calc(25% - 20px) calc(25% - 20px) calc(25% - 20px) calc(25% - 20px);
-    position: relative;
-    padding: 100px;
-}
-
 .contactMe h1 {
     grid-column: 1/span 3;
     font-size:2.5rem;
@@ -409,22 +401,6 @@ aside li i {
     grid-area: 2/2/ span 5/span 2;
 }
 
-.contactinfo {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    color: white;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.contactinfo i {
-    padding: 10px;
-    font-size: 2.5rem;
-    color: #80ed99;
-    margin: 20px auto;
-}
 
 .contactinfo h3 {
     color: #80ed99;
@@ -464,7 +440,7 @@ aside li i {
 
 .contactMe form textarea {
     width: calc(100% - 40px);
-
+    height: 180px;
     grid-column: 1/span 2;
     margin: 20px;
     padding: 20px;
